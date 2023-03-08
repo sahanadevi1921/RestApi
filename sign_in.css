@@ -1,0 +1,24 @@
+body{
+    background-image:url("http://www.pixelstalk.net/wp-content/uploads/2016/07/Cute-Ice-Cream-Background-Free-Download.jpg");
+    background-repeat: no-repeat;
+    width: 85%;
+    background-size: cover;
+   
+} 
+#box{
+    background-color: hsla(346, 83%, 9%, 0.432);
+    float: right;
+    margin-right: 20%;
+    height: 50vh;
+    width: 40%;
+    margin-top: 10%;
+   
+}
+#signin{
+    color: rgb(81, 36, 11);
+    text-align: center;
+}
+#form{
+    margin-left:5%;
+    font-family: 'Times New Roman', Times, serif;
+}
