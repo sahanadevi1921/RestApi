@@ -29,7 +29,7 @@ public class BusService {
 		return repository.findById(id);          
 	}
 	public String updateBus(Bus bus) {
-		repository.save(bus);
+		repository.save(bus);                         
 		return "Updated";
 	}
 	public String deleteBusById(int id) {
@@ -37,7 +37,7 @@ public class BusService {
 		return "Bus deleted";
 	}
 	//sorting
-	public List<Bus> getBusSorted(String field){
+	public List<Bus> getBusSorted(String field){               
 		return repository.findAll(Sort.by(Sort.Direction.ASC,field));
 	}
 	//pagination
